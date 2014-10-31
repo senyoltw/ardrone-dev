@@ -6,7 +6,7 @@ Install! [node.js](http://ja.wikipedia.org/wiki/Node.js)
 ### Introduction
 AR Drone 2.0の実行環境とプログラム  
 いろいろ試してみたプログラムを詰め合わせしたもの  
-#### プログラム説明
+### プログラム説明
 * repl.js 
 	コマンドにて操作するプログラム
 * camera.js
@@ -36,6 +36,13 @@ PCで接続すると'192.168.1.1'がAR Drone 2.0となっている
 AR Droneをnode.jsで操作するパッケージ  
 [node-dronestream](https://github.com/bkw/node-dronestream)
 AR Droneのメインカメラをストリーミングするパッケージ。レスポンスが小さく綺麗。  
+
+### ログの取得について
+下記文字列をスクリプトに記載することでコンソールに各飛行データを取得可能
+```js
+client.on('navdata', console.log);
+```
+現在検証中
 
 ### 注意事項
 node-ar-droneにて設定されているclient.animateについては注意が必要。  

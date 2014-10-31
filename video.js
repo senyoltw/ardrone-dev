@@ -1,5 +1,5 @@
-var http = require("http"),
-    stream  = require("dronestream");
+var http = require("http");
+var stream  = require("dronestream");
 
 var server = http.createServer(function(req, res) {
   require("fs").createReadStream(__dirname + "/index.html").pipe(res);
