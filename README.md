@@ -1,10 +1,10 @@
 ardrone-dev
 ===========
-need! [Parrot AR Drone 2.0](http://www.amazon.co.jp/gp/product/B00HYO158Q?ie=UTF8&camp=1207&creative=8411&creativeASIN=B00HYO158Q&linkCode=shr&tag=senyoltw-22&qid=1414738801&sr=8-3&keywords=AR+Drone+2)  
-need! [node.js](http://ja.wikipedia.org/wiki/Node.js)
+Need! [Parrot AR Drone 2.0](http://www.amazon.co.jp/gp/product/B00HYO158Q?ie=UTF8&camp=1207&creative=8411&creativeASIN=B00HYO158Q&linkCode=shr&tag=senyoltw-22&qid=1414738801&sr=8-3&keywords=AR+Drone+2)  
+Install! [node.js](http://ja.wikipedia.org/wiki/Node.js)
 
 ### Introduction
-AR Drone 2.0の開発環境  
+AR Drone 2.0の実行環境とプログラム  
 いろいろ試してみたプログラムを詰め合わせしたもの  
 #### プログラム説明
 * repl.js 
@@ -13,7 +13,7 @@ AR Drone 2.0の開発環境
 	メインカメラから画像を取得するプログラム
 * video.js
 	メインカメラから動画をストリーミングするプログラム
-* promo.js
+* auto.js
 	自動操縦のプログラム。
 
 ### How to install
