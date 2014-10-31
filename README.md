@@ -42,4 +42,4 @@ node-ar-droneにて設定されているclient.animateについては注意が�
 ドローンに事前にプログラミングされているアニメーションが実行されるが、狭い部屋なので実行すると壁にぶつかり破損する恐れがある。  
 
 参考動画1 http://instagram.com/p/t9H9ZUFbHU/  
-参考動画2 http://instagram.com/p/t9H9ZUFbHU/
+参考動画2 http://instagram.com/p/t7g8JXlbFQ/
