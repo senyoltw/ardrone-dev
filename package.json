@@ -1,0 +1,26 @@
+{
+  "name": "ardrone-dev",
+  "version": "1.0.0",
+  "description": "ardrone development",
+  "main": "repl.js",
+  "scripts": {
+    "test": "node repl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senyoltw/ardrone-dev.git"
+  },
+  "keywords": [
+    "ardrone"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senyoltw/ardrone-dev/issues"
+  },
+  "homepage": "https://github.com/senyoltw/ardrone-dev",
+  "dependencies": {
+    "ar-drone": "^0.3.2",
+    "dronestream": "^1.1.1"
+  }
+}

@@ -1,7 +1,7 @@
 ardrone-dev
 ===========
 need! [Parrot AR Drone 2.0](http://www.amazon.co.jp/gp/product/B00HYO158Q?ie=UTF8&camp=1207&creative=8411&creativeASIN=B00HYO158Q&linkCode=shr&tag=senyoltw-22&qid=1414738801&sr=8-3&keywords=AR+Drone+2)  
-[node.js](http://ja.wikipedia.org/wiki/Node.js)
+need! [node.js](http://ja.wikipedia.org/wiki/Node.js)
 
 ### Introduction
 AR Drone 2.0の開発環境  
@@ -40,5 +40,6 @@ AR Droneのメインカメラをストリーミングするパッケージ。レ
 ### 注意事項
 node-ar-droneにて設定されているclient.animateについては注意が必要。  
 ドローンに事前にプログラミングされているアニメーションが実行されるが、狭い部屋なので実行すると壁にぶつかり破損する恐れがある。  
+
 参考動画1 http://instagram.com/p/t9H9ZUFbHU/  
 参考動画2 http://instagram.com/p/t9H9ZUFbHU/
